@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e0e0e0; /* Set your desired background color or image */
+}
+
+img {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+
+.content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em; /* Adjust font size as needed */
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em; /* Adjust font size as needed */
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500; /* Adjust button background color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.explore-button:hover {
+    background-color: #ff5722; /* Button background color on hover */
+}
